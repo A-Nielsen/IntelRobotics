@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "intelrobotics-83545",
+  "private_key_id": "00e1a2967cf481861659516728ba827b0676dafc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCiv9YwYfNbnI3z\nE8AcIpsmv86u2/ikszyYbX9xCkQIG1JnhVj4SSXcueSa0NyapWP0+cY0YkkuNZnb\nXwdkS78gmZunhDCxtLY76nB6D2XVy++/QW36Je/X0dfevUooiFHkI4isjwisBPWq\n4I3PvzKbHTFJKzfnm6LTYl5/V3lX/iFWiE0fLiE6E2araCoazproVFo8EhbGuQqP\nZ7UgndsJVndheqnDUOqt8bt/z2RLBwb5Cnu+eaNt5n0u87ApLzd9g4CdzhKtmBoE\nk9grdPw+vD8on72sXC1ivUbI/t0Td411Zz2yGY6NyM33j6DQDMd1WpSWrfRli20C\n0FWXgtYPAgMBAAECggEAALcXGd9UUnK9rPPJRFZimCj/n4UX8qFXAtR4WubQpbh5\nBDtxyKWJpQ6sEoIYdhWD+u+eD1zfNXTG2E/ymF482MfUB0htblp88oZ1OBQZPndG\n9nAzK4Y/J5OkfzYVvVfcBESjtR5ry1W6PqX9+Yu9jTDzpn6qIDpu3L7x611XCyvw\n66TLrQ6uDvu0SMM1xQPB7M/2eIen1dgNp1/wFj+aXHRInmNq0a+Hd5Xqec5bJp5B\n58QkfSI4zBiSUPDaAY4wH8/2KtjoBx0K9d+Ew3OHsWmBH1hyVKB2BCq8h5DhhlFD\ncGEhVd3Q5+4XSJ35CFhH6Pu3g1XNW/2zRjzHIDvZAQKBgQDjSOniynf8ozT2XLcv\nEPts7nS64B5RlzICDlIlhdySSzHGV0COV2TgMwXMlgLbPqDY9COtB+2ZoXhZ3fne\nfwJ35dXokvrrPUFsDzDhdPRq1y986ybq4ljlwVux+qRRgqOV0R9UigYEUjlWTxg2\nirz5cRO0rAXC4We+h8HB1EjlxQKBgQC3T6Yhkp4KONuIyAeeZOl0lKPQsvNyEy6X\nPB0mjM726gO84xV6cPIgmbE2RYEEoHsMOGoi6XiLSzapFUVr+Dl6QkS5Gd7SFn+A\nsy7XoOhwkSbzQzA48jK1S2D2UKfMRz0SoDgqDGLadVdHB1mBGXo+q7g2F7XMXd05\nM+ZBFeqdwwKBgQCxAjgkyEpqFzFILSz9Gty1GYEPiTwTjw0DTOPtFTOTO7yoG4vL\nT4TgltwNWUcgOMZMMNcYCvSgkYCJfLb88S2a8wSE/PMuAabR4YLQE6XHD4+MWhcV\nFvLk/JHNKsaONI/yPcuIq3XEJ8U/0pmo4KQMIGSYcOCLxcBmQpRDwHCFgQKBgQCE\n+O4WJHkoCR6XFiMQrzr6Kmi6l1UpRujhI+YxdKsdSZv0hPWroArDwzldmQWCCbe4\noaO8N4gN4z1/YcK+E43+NdwMOcv8sf1DqrcsC7kRDvomNHLinC5UfJ2Vj+RotrSC\nsl6LgfijZ8Mr7xTqJUUb+QzjkEd8PAqh2BgK1o8eaQKBgDZFjZr6riXNZQzlxWSk\nGfjSyRy1NjBK4F1YTTEY0qi4MX0bH+Zic2ScBuAJCtsFLXxm9/76eZGHpjGhsj2z\nBUQ2m1/50enfpAD/uDy06sCsSp1Rs2Nzmi7Wx8O9Lnmc7BiEsdyhba1N5DA/O88K\nu4uyzltjYM8DYKDGoycR0L5L\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-xwyp7@intelrobotics-83545.iam.gserviceaccount.com",
+  "client_id": "100983010040368531398",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xwyp7%40intelrobotics-83545.iam.gserviceaccount.com"
+}
