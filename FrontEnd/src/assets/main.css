@@ -11,12 +11,42 @@ a,
   transition: 0.4s;
 }
 
+.header{
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+}
+
+.headerlarge{
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px;
+}
+
+
 .banner{
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   max-height: 400px;
+}
+.bannernarrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  max-height: 200px;
+}
+
+.lighter{
+  background-color: var(--vt-c-divider-dark-1);
+}
+
+.darker{
+  background-color: var(--vt-c-black-soft);
 }
 
 .banner img{

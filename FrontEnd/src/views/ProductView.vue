@@ -1,9 +1,9 @@
 <script setup lang="ts">
-  import TheAbout from "../components/TheAbout.vue";
+  import TheProducts from "../components/TheProducts.vue";
   </script>
 
 <template>
   <main>
-    <TheAbout/>
+    <TheProducts/>
   </main>
 </template>
