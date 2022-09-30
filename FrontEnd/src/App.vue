@@ -1,32 +1,68 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-import Product from "./components/Product.vue";
 </script>
 
 <template>
   <div class="nav">
-    <img class="navlogo" src="src/components/icons/Robot.png"/>
-    <navlink class="navlink">
+    <div class="logo">
+      <RouterLink to="/" class><img class="navlogo" src="src/components/icons/Robot.png"/></RouterLink>
+    </div>
+    <div class="navlink">
       <RouterLink to="/">Home</RouterLink>
-    </navlink>
-    <navlink class="navlink" >
+    </div>
+    <div class="navlink" >
       <RouterLink to="/products">Products</RouterLink>
-    </navlink>
-    <navlink class="navlink" >
+    </div>
+    <div class="navlink" >
       <RouterLink to="/about">About</RouterLink>
-    </navlink>
+    </div>
   </div>
   
-  <!-- Where content will be displayed -->
-  <RouterView />
+  <div class="flex-wrapper">
+    
+    <!-- Where content will be displayed -->
+    <div id="main">
+      <RouterView />
+    </div>
+
+    <div id="footer">
+      <div class="footer-row">
+        <img class="navlogo" src="src/components/icons/Robot.png"/>
+      </div>
+      <div class="footer-row">
+        <p>&#169; 2022 - IntelRobotics</p>
+      </div>
+      <div class="footer-row">
+        <p>Useful links</p>
+        <p>Other info</p>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style scoped>
+#main{
+  flex:1;
+}
+
+.flex-wrapper {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .navlogo{
   height: 60px;
   border-radius: 8px;
   margin: 0 5px 0 5px;
+}
+
+.logo{
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  border-radius: 8px;
 }
 
 .navlink a{
@@ -49,6 +85,17 @@ import Product from "./components/Product.vue";
   height: 60px;
   width: 100px;
   font-size: larger;
+}
+
+#footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 nav a.router-link-exact-active {
