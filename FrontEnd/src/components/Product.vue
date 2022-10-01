@@ -1,14 +1,16 @@
 <script setup lang="ts">
 defineProps<{
-  productId: string;
+  productName: string;
+  productDesc: string;
+  imageURL: string;
 }>();
 </script>
 
 <template>
   <div class="product">
-    <img class="Image" src="https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc="/>
-    <p class="product-name">{{productId}}</p>
-    <p class="product-text">wwwwwwwwwww wafsd adsf asdfadslæfkqewfj pgmåsdfnhåjfåg jzåfnvaåodsnåak dmvåoxkgfåzpdjgskon  </p>
+    <img class="Image" :src="imageURL"/>
+    <p class="product-name">{{productName}}</p>
+    <p class="product-text">{{productDesc}}</p>
   </div>
 </template>
  
