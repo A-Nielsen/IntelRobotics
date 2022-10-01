@@ -3,29 +3,31 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <div class="nav">
-    <div class="logo">
-      <RouterLink to="/" class><img class="navlogo" src="src/components/icons/Robot.png"/></RouterLink>
-    </div>
-    <div class="navlink">
-      <RouterLink to="/">Home</RouterLink>
-    </div>
-    <div class="navlink" >
-      <RouterLink to="/products">Products</RouterLink>
-    </div>
-    <div class="navlink" >
-      <RouterLink to="/about">About</RouterLink>
-    </div>
-  </div>
-  
   <div class="flex-wrapper">
     
+    <div class="nav">
+      <div class="logo">
+        <RouterLink to="/" class><img class="navlogo" src="src/components/icons/Robot.png"/></RouterLink>
+      </div>
+      <div class="navlink">
+        <RouterLink to="/">Home</RouterLink>
+      </div>
+      <div class="navlink" >
+        <RouterLink to="/products">Products</RouterLink>
+      </div>
+      <div class="navlink" >
+        <RouterLink to="/about">About</RouterLink>
+      </div>
+    </div>
+  
+
     <!-- Where content will be displayed -->
     <div id="main">
       <RouterView />
     </div>
-
-    <div id="footer">
+  </div>
+  
+  <div id="footer">
       <div class="footer-row">
         <img class="navlogo" src="src/components/icons/Robot.png"/>
       </div>
@@ -36,20 +38,28 @@ import { RouterLink, RouterView } from "vue-router";
         <p>Useful links</p>
         <p>Other info</p>
       </div>
+      <div class="footer-row">
+        <a href="https://vuejs.org/">Vue</a>
+        <p>Other info</p>
+      </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
 #main{
   flex:1;
 }
 
 .flex-wrapper {
+  min-height: 100vh;
   display: flex;
-  height: 100vh;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .navlogo{
@@ -88,6 +98,8 @@ import { RouterLink, RouterView } from "vue-router";
 }
 
 #footer{
+  margin-top: var(--margin-default);
+  margin-bottom: var(--margin-default);
   display: flex;
   flex-direction: column;
 }
