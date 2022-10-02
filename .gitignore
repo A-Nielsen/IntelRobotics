@@ -1,3 +1,7 @@
+# Images
+images/*
+
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -57,3 +61,4 @@ yarn-error.log
 # DB config data
 /backend/config/options.js
 *.pyc
+.env

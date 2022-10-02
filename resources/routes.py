@@ -6,8 +6,4 @@ def initialize_routes(api):
     api.add_resource(LoginApi, '/api/auth/login')
     
     api.add_resource(ProductsApi, '/api/product')
-    api.add_resource(ProductApi, '/api/product/<id>')
-    
-    
-    
-    
+    api.add_resource(ProductApi, '/api/product/<id>')   

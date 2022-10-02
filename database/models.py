@@ -12,6 +12,9 @@ class User(gj.Document):
     def check_password(self, password):
         return check_password_hash(self.password, password)
 
+
 class Product(gj.Document):
     name = db.StringField(required=True)
-    price = db.IntField(required=True)
+    price = db.DecimalField(requird=True, precision=2)
+    description = db.StringField()
+    imagePath = db.StringField()
