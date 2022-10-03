@@ -30,17 +30,25 @@ import { RouterLink, RouterView } from "vue-router";
   <div id="footer">
       <div class="footer-row">
         <img class="navlogo" src="src/components/icons/Robot.png"/>
-      </div>
+      </div>  
       <div class="footer-row">
         <p>&#169; 2022 - IntelRobotics</p>
       </div>
       <div class="footer-row">
-        <p>Useful links</p>
-        <p>Other info</p>
+        <div class="footer-text">
+          <p>Useful links</p>
+        </div>
+        <div class="footer-text">
+          <p>Other info</p>
+        </div>
       </div>
       <div class="footer-row">
-        <a href="https://vuejs.org/">Vue</a>
-        <p>Other info</p>
+        <div class="footer-text">
+          <a href="https://vuejs.org/">Vue</a>
+        </div>
+        <div class="footer-text">
+          <p>Contact info</p>
+        </div>
       </div>
     </div>
 </template>
@@ -110,6 +118,12 @@ body {
   justify-content: space-around;
 }
 
+.footer-text{
+  width: 100px;
+  display: flex;
+  justify-content: left;
+}
+
 nav a.router-link-exact-active {
   color: var(--color-text);
 }
@@ -119,13 +133,6 @@ nav a.router-link-exact-active:hover {
 }
 
 @media (max-width: 1024px) {
-  .nav{
-    justify-content: center;
-  }
 
-  .navlogo{
-    position: absolute; 
-    left: 5px;
-  }
 }
 </style>
