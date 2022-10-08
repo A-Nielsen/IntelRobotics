@@ -1,3 +1,7 @@
+# Images
+images/*
+
+
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -56,6 +60,7 @@ yarn-error.log
 
 # DB config data
 /backend/config/options.js
+<<<<<<< HEAD:.gitignore
 # Logs
 logs
 *.log
@@ -118,3 +123,7 @@ pnpm-lock.yaml
 # Docs site
 _site
 /docs/src/assets/css
+=======
+*.pyc
+.env
+
