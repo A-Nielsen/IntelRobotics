@@ -44,4 +44,10 @@
       max-width: 40vw;
       margin: var(--margin-default);
   } 
+    
+  @media only screen and (max-width: 1024px) {
+    p{
+    max-width: 80vw;
+    }
+  }
 </style>

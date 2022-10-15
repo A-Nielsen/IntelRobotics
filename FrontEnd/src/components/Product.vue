@@ -1,16 +1,16 @@
 <script setup lang="ts">
 defineProps<{
   productName: string;
-  productDesc: string;
+  productPrice: number;
   imageURL: string;
 }>();
 </script>
 
 <template>
   <div class="product">
-    <img class="Image" :src="imageURL"/>
+    <img style="background-image: url('https://media.istockphoto.com/vectors/thumbnail-image-vector-graphic-vector-id1147544807?k=20&m=1147544807&s=612x612&w=0&h=pBhz1dkwsCMq37Udtp9sfxbjaMl27JUapoyYpQm0anc=')" class="Image" :src="imageURL"/>
     <p class="product-name">{{productName}}</p>
-    <p class="product-text">{{productDesc}}</p>
+    <p class="product-text">indicative price: <br/>{{productPrice}} $USD</p>
   </div>
 </template>
  
@@ -36,5 +36,12 @@ defineProps<{
   .product-name{
     font-size: xx-large;
     color: var(--color-heading)
+  }
+
+  
+  @media only screen and (max-width: 1024px) {
+    .product{
+    width: 80vw;
+    }
   }
 </style>
