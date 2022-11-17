@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from "vue-router";
     
     <div class="nav">
       <div class="logo">
-        <RouterLink to="/" class><img class="navlogo" src="src/components/icons/Robot.png"/></RouterLink>
+        <RouterLink to="/" class><img class="navlogo" src="/Robot.png"/></RouterLink>
       </div>
       <div class="navlink">
         <RouterLink to="/">Home</RouterLink>
@@ -29,7 +29,7 @@ import { RouterLink, RouterView } from "vue-router";
   
   <div id="footer">
       <div class="footer-row">
-        <img class="navlogo" src="src/components/icons/Robot.png"/>
+        <img class="navlogo" src="/Robot.png"/>
       </div>  
       <div class="footer-row">
         <p>&#169; 2022 - IntelRobotics</p>
