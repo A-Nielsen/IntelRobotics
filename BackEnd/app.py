@@ -9,7 +9,7 @@ from flask_cors import CORS
 from flask_bcrypt import Bcrypt
 from flask_jwt_extended import JWTManager
 
-logging.basicConfig(filename=f'C:\\Users\\asger\\source\\repos\\IntelRobotics\\BackEnd.log', level=logging.DEBUG)
+logging.basicConfig(filename=f'logs\{date.today()}.log', level=logging.DEBUG)
 app = Flask(__name__)
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
