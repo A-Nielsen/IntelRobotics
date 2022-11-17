@@ -31,7 +31,7 @@ def check_if_token_revoked(jwt_header, jwt_payload: dict) -> bool:
     else:
         return False
 
-app.run()
+app.run(host="0.0.0.0")
 
 
 
