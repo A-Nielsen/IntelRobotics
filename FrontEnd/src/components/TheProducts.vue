@@ -11,7 +11,7 @@ export default defineComponent({
     },
     mounted: function () {
 
-            axios.get("http://localhost:5000/api/product").then((response) => {
+            axios.get("http://3.74.182.248/api/product").then((response) => {
                 let data = response.data;
                 data.forEach((product: any) => {
                     if(product.imagePath === undefined)
