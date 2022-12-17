@@ -4,7 +4,7 @@ import mongoengine_goodjson as gj
 from flask_bcrypt import generate_password_hash, check_password_hash
 
 class User(gj.Document):
-    password = db.StringField(required=True, unique=True, min_length=4)
+    password = db.StringField(required=True, min_length=4)
     email = db.EmailField(required=True, unique=True)
     
     def hash_password(self):
@@ -16,7 +16,7 @@ class User(gj.Document):
 
 class Product(gj.Document):
     name = db.StringField(required=True)
-    price = db.DecimalField(requird=True, precision=2)
+    price = db.DecimalField(required=True, precision=2, min_value=0)
     description = db.StringField()
     imagePath = db.StringField()
     
